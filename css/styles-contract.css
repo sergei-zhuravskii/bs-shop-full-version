@@ -1,0 +1,109 @@
+
+/* import styles */
+
+@import url("/css/normalize.css"); /* styles Normalize */
+
+@import url("/css/styles-basic.css"); /* styles basic */
+
+@import url("/css/styles-header.css"); /* styles <header> */
+
+@import url("/css/styles-footer.css"); /* styles <footer> */
+
+/* section__contract */
+
+.section__contract {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 962px;
+}
+
+/* contract-text */
+
+.chapter-heading {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.chapter-text__list {
+  margin-bottom: 50px;
+}
+
+.chapter-text__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* contract-download-link */
+
+.contract__download-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  width: fit-content;
+}
+
+.download-link__icon {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.download-link__icon svg path {
+  stroke: var(--blue);
+}
+
+/* .contract__download-link:hover > .download-link__icon > svg path {
+  stroke: var(--red);
+} */
+
+/* .contract__download-link:hover > .download-link__title {
+  color: var(--red);
+} */
+
+/* .contract__download-link:active > .download-link__icon > svg path {
+  stroke: var(--dark-red);
+} */
+
+/* .contract__download-link:active > .download-link__title {
+  color: var(--dark-red);
+} */
+
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+
+@media (min-width:1200px) {   /* :hover and :active для desktop */
+
+/* contract-download-link */
+
+  .contract__download-link:hover > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .contract__download-link:hover > .download-link__title {
+    color: var(--red);
+  }
+
+  .contract__download-link:active > .download-link__icon > svg path {
+    stroke: var(--dark-red);
+  }
+
+  .contract__download-link:active > .download-link__title {
+    color: var(--dark-red);
+  }
+
+}
+
+@media (max-width:1199.98px) {   /* :active для mobile */
+
+  /* contract-download-link */
+
+  .contract__download-link:active > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .contract__download-link:active > .download-link__title {
+    color: var(--red);
+  }
+
+}

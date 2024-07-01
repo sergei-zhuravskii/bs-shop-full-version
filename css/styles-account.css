@@ -1,0 +1,786 @@
+
+/* import styles */
+
+@import url("/css/normalize.css"); /* styles Normalize */
+
+@import url("/css/styles-basic.css"); /* styles basic */
+
+@import url("/css/styles-header.css"); /* styles <header> */
+
+@import url("/css/styles-footer.css"); /* styles <footer> */
+
+/* section__account-entry */
+
+.section__account-entry {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 546px;
+}
+
+.account-entry__items-wrapper {
+  padding: 30px;
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+/* account-entry__social-access */
+
+.social-access__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* social-access__link */
+
+.social-access__link-wrapper {
+  height: 50px;
+}
+
+.social-access__link img {
+  width: 140px;
+  height: 50px;
+}
+
+/* .social-access__link-wrapper:hover {
+  filter: brightness(80%);
+} */
+
+/* .social-access__link-wrapper:active {
+  opacity: 0.8;
+} */
+
+/* account-entry__login-access */
+
+.login-access__item {
+  margin-bottom: 20px;
+}
+
+.login-access__item:nth-child(3) {
+  margin-bottom: 30px;
+}
+
+.account-entry__login-access {
+  margin-bottom: 50px;
+}
+
+.login-access__item-text {
+  margin-bottom: 10px;
+}
+
+.login-access__item-input {
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 4px;
+}
+
+.login-access__item-input::placeholder {
+  color: var(--grey);
+}
+
+.login-access__item-input_no-data {
+  border: 2px solid var(--red);
+}
+
+.login-access__item-input_no-data::placeholder {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.login-access__note {
+  color: var(--dark-grey);
+}
+
+/* account-entry__help-panel */
+
+.account-entry__help-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.help-panel__recover {
+  margin-bottom: 0;
+  color: var(--red);
+  cursor: pointer;
+}
+
+.help-panel__register {
+  margin-bottom: 0;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+/* .help-panel__recover:hover {
+  color: var(--light-black);
+} */
+
+/* .help-panel__register:hover {
+  color: var(--light-black);
+} */
+
+/* .help-panel__recover:active,
+.help-panel__register:active {
+  opacity: 0.8;
+} */
+
+/* account-entry__btn-log */
+
+.account-entry__btn-log-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.account-entry__btn-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 198px;
+  height: 50px;
+}
+
+/* account-entry-recover *//* modal-window */
+
+.account-entry__modal-container {
+  /* display: flex; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: rgba(52, 96, 128, 0.7);
+  cursor: pointer;
+}
+
+.account-entry__modal {
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 30px);
+  height: fit-content;
+  max-width: 546px;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 15px 10px rgba(2, 3, 4, 0.4);
+  cursor: auto;
+}
+
+.account-entry__modal-text {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--light-black);
+}
+
+.account-entry__modal-input {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 4px;
+}
+
+.account-entry__modal-input::placeholder {
+  color: var(--grey);
+}
+
+.account-entry__modal-input_no-data {
+  border: 2px solid var(--red);
+}
+
+.account-entry__modal-input_no-data::placeholder {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.account-entry__modal-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account-entry__modal-btn-send,
+.account-entry__modal-btn-cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 198px;
+  height: 50px;
+}
+
+/* section__personal-account */
+
+.section__personal-account {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 738px;
+  width: 100%;
+}
+
+/* personal-account__account-info */
+
+.personal-account__account-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.account-info__item {
+  display: flex;
+  align-items: center;
+  width: 268px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.account-login {
+  justify-content: space-around;
+  margin-right: 10px;
+  background-color: var(--white);
+}
+
+.account-cash {
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+/* .account-cash:hover {
+  background-color: var(--light-black);
+} */
+
+/* .account-cash:active {
+  opacity: 0.8;
+} */
+
+.account-login__title {
+  text-align: center;
+  font-size: 19px;
+  line-height: 100%;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.account-cash__balance {
+  text-align: center;
+  font-size: 19px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.account-cash__icon {
+  height: 30px;
+}
+
+/* personal-account__accordeon */
+
+.personal-account__accordeon {
+  width: 100%;
+}
+
+.accordeon__personal-account-item {
+  margin-bottom: 10px;
+}
+
+.personal-account-item__heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* .personal-account-item__heading-wrapper:hover > .personal-account-item__heading {
+  outline: 1px solid var(--red);
+  outline-offset: -1px;
+} */
+
+/* .personal-account-item__heading-wrapper:hover > .personal-account-item__btn {
+  background-color: var(--red);
+} */
+
+.personal-account-item__heading {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.personal-account-item__heading:active {
+  opacity: 0.7;
+}
+
+.personal-account-item__heading:active + .personal-account-item__btn {
+  opacity: 0.7;
+}
+
+.personal-account-item__btn:active + .personal-account-item__heading {
+  opacity: 0.7;
+}
+
+.personal-account-heading_active {
+  outline: 1px solid var(--dark-grey);
+  outline-offset: -1px;
+}
+
+.personal-account-item__btn {
+  margin: 0 auto 0 auto;
+  position: relative;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange);
+}
+
+.personal-account-item__btn span {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  width: 20px;
+  height: 4px;
+  background-color: white;
+}
+
+.personal-account-item__btn span:nth-of-type(2) {
+  transform: rotate(90deg);
+}
+
+.personal-account-item__btn_active {
+  background-color: var(--dark-grey);
+}
+
+.personal-account-btn_active {
+  background-color: var(--dark-grey);
+}
+
+.personal-account-btn_active span:nth-of-type(2) {
+  display: none;
+}
+
+.personal-account-item__module-wrapper {
+  display: none;
+  align-items: center;
+  margin-right: 60px;
+  padding: 20px;
+  height: 150px;
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.personal-account-item__module-wrapper.active {
+  display: flex;
+}
+
+.personal-account-item__module {
+  width: 100%;
+  text-align: center;
+}
+
+/* section__registration */
+
+.section__registration {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 546px;
+}
+
+/* registration__items-wrapper */
+
+.registration__items-wrapper {
+  padding: 30px;
+  width: 100%;
+  background-color: var(--white);
+}
+
+/* registration__data */
+
+.registration__data {
+  margin-bottom: 50px;
+}
+
+.registration__data-item {
+  margin-bottom: 20px;
+}
+
+.registration__data-item:nth-child(6) {
+  margin-bottom: 30px;
+}
+
+.registration__data-title {
+  margin-bottom: 10px;
+}
+
+.registration__data-input {
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 4px;
+}
+
+.registration__data-input::placeholder {
+  color: var(--grey);
+}
+
+.registration__data-input_no-data {
+  border: 2px solid var(--red);
+}
+
+.registration__data-input_no-data::placeholder {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.registration__data-note {
+  color: var(--dark-grey);
+}
+
+.data-title-note {
+  color: var(--red);
+}
+
+/* registration__conditions */
+
+.registration__conditions {
+  margin-bottom: 50px;
+}
+
+.registration__conditions-item-link {
+  color: var(--blue);
+}
+
+.registration__conditions-item:first-child {
+  margin-bottom: 30px;
+}
+
+/* .registration__conditions-item-link:hover {
+  color: var(--red);
+} */
+
+/* registration__btn */
+
+.registration__btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.registration__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 198px;
+  height: 50px;
+}
+
+/* confirmation-registration *//* modal-window */
+
+.registration__modal-container {
+  /* display: flex; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: rgba(52, 96, 128, 0.7);
+  cursor: pointer;
+}
+
+.registration__modal {
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 30px);
+  max-width: 400px;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 15px 10px rgba(2, 3, 4, 0.4);
+  cursor: auto;
+}
+
+.registration__modal-text {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--light-black);
+}
+
+.registration__modal-btn-cancel {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 198px;
+  height: 50px;
+}
+
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+
+@media (min-width:1200px) {   /* :hover and :active для desktop */
+
+  /* social-access__link */
+
+  .social-access__link-wrapper:hover {
+    filter: brightness(80%);
+  }
+
+  .social-access__link-wrapper:active {
+    opacity: 0.8;
+  }
+
+  /* account-entry__help-panel */
+
+  .help-panel__recover:hover {
+    color: var(--light-black);
+  }
+
+  .help-panel__register:hover {
+    color: var(--light-black);
+  }
+
+  .help-panel__recover:active,
+  .help-panel__register:active {
+    opacity: 0.8;
+  }
+
+  /* personal-account__account-info */
+
+  .account-cash:hover {
+    background-color: var(--light-black);
+  }
+
+  .account-cash:active {
+    opacity: 0.8;
+  }
+
+  /* personal-account__accordeon */
+
+  .personal-account-item__heading-wrapper:hover > .personal-account-item__heading {
+    outline: 1px solid var(--red);
+    outline-offset: -1px;
+  }
+
+  .personal-account-item__heading-wrapper:hover > .personal-account-item__btn {
+    background-color: var(--red);
+  }
+
+  /* registration__conditions */
+
+  .registration__conditions-item-link:hover {
+    color: var(--red);
+  }
+
+}
+
+@media (max-width:1199.98px) {   /* :active для mobile */
+
+  /* social-access__link */
+
+  .social-access__link-wrapper:active {
+    opacity: 0.8;
+  }
+
+  /* account-entry__help-panel */
+
+  .help-panel__recover:active {
+    color: var(--light-black);
+  }
+
+  .help-panel__register:active {
+    color: var(--light-black);
+  }
+
+  /* personal-account__account-info */
+
+  .account-cash:active {
+    background-color: var(--light-black);
+  }
+
+  /* personal-account__accordeon */
+
+  .personal-account-item__heading-wrapper:active > .personal-account-item__heading {
+    outline: 1px solid var(--red);
+    outline-offset: -1px;
+  }
+
+  .personal-account-item__heading-wrapper:active > .personal-account-item__btn {
+    background-color: var(--red);
+  }
+
+  /* registration__conditions */
+
+  .registration__conditions-item-link:active {
+    color: var(--red);
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* personal-account__account-info */
+
+  .personal-account__account-info-wrapper {
+    justify-content: space-between;
+  }
+
+  .account-info__item {
+    width: calc((100% - 10px)/2);
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 575.98px) {
+
+  /* personal-account__account-info */
+
+  .account-info__item {
+    width: 268px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+  /* section__account-entry */
+
+  .item-heading {
+    text-align: center;
+  }
+
+  /* account-entry__social-access */
+
+  .social-access__links {
+    flex-direction: column;
+  }
+
+  .social-access__link-wrapper:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* account-entry__help-panel */
+
+  .account-entry__help-panel {
+    flex-direction: column;
+  }
+
+  .help-panel__recover {
+    margin-bottom: 30px;
+  }
+
+  /* account-entry-recover *//* modal-window */
+
+  .account-entry__modal-btn-wrapper {
+    flex-direction: column;
+  }
+
+  .account-entry__modal-btn-send {
+    margin-bottom: 10px;
+  }
+
+  /* personal-account__account-info */
+
+  .personal-account__account-info-wrapper {
+    flex-direction: column;
+  }
+
+  .account-info__item {
+    width: 100%;
+  }
+
+  .account-login {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* personal-account__accordeon */
+
+  .personal-account-item__module-wrapper {
+    margin-right: 0;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+
+  /* account-entry__btn-log */
+
+  .account-entry__btn-log {
+    width: 100%;
+  }
+
+  /* section__account-entry */
+
+  .account-entry__items-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* registration__items-wrapper */
+
+  .registration__items-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* registration__btn */
+
+  .registration__btn {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+
+  /* account-entry-recover *//* modal-window */
+
+  .account-entry__modal-btn-send,
+  .account-entry__modal-btn-cancel {
+    width: 100%;
+  }
+
+}
+
+
+
+

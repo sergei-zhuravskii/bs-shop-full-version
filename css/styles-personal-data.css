@@ -1,0 +1,108 @@
+
+/* import styles */
+
+@import url("/css/normalize.css"); /* styles Normalize */
+
+@import url("/css/styles-basic.css"); /* styles basic */
+
+@import url("/css/styles-header.css"); /* styles <header> */
+
+@import url("/css/styles-footer.css"); /* styles <footer> */
+
+/* section__personal-data */
+
+.section__personal-data {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 962px;
+}
+
+/* personal-data-list */
+
+.chapter-text__list {
+  margin-bottom: 50px;
+}
+
+.chapter-text__list-item::marker {
+  text-indent: 20px;
+}
+
+.chapter-text__list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* personal-data-download-link */
+
+.personal-data__download-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  width: fit-content;
+}
+
+.download-link__icon {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.download-link__icon svg path {
+  stroke: var(--blue);
+}
+
+/* .personal-data__download-link:hover > .download-link__icon > svg path {
+  stroke: var(--red);
+} */
+
+/* .personal-data__download-link:hover > .download-link__title {
+  color: var(--red);
+} */
+
+/* .personal-data__download-link:active > .download-link__icon > svg path {
+  stroke: var(--dark-red);
+} */
+
+/* .personal-data__download-link:active > .download-link__title {
+  color: var(--dark-red);
+} */
+
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+
+@media (min-width:1200px) {   /* :hover and :active для desktop */
+
+  /* personal-data-download-link */
+
+  .personal-data__download-link:hover > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .personal-data__download-link:hover > .download-link__title {
+    color: var(--red);
+  }
+
+  .personal-data__download-link:active > .download-link__icon > svg path {
+    stroke: var(--dark-red);
+  }
+
+  .personal-data__download-link:active > .download-link__title {
+    color: var(--dark-red);
+  }
+
+}
+
+@media (max-width:1199.98px) {   /* :active для mobile */
+
+  /* personal-data-download-link */
+
+  .personal-data__download-link:active > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .personal-data__download-link:active > .download-link__title {
+    color: var(--red);
+  }
+
+}

@@ -1,0 +1,228 @@
+/* fonts */
+
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/open-sans-v29-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v29-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('/fonts/open-sans-v29-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v29-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('/fonts/open-sans-v29-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v29-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/open-sans-v29-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/open-sans-v29-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* basic */
+
+:root {
+  --white: #FFFFFF;
+  --light-grey: #F0F0F0;
+  --grey: #C0C0C0;
+  --dark-grey: #888888;
+  --light-black: #111111;
+  --red: #CB0000;
+  --dark-red: #af0000;
+  --orange: #F57000;
+  --green: #00A907;
+  --dark-green: #007e04;
+  --background-modal: #346080;
+  --blue: #011477;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--white);
+}
+
+main {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* main */
+
+.section-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.section-404__img-404-wrapper,
+.section-404__description-404 {
+  width: 100%;
+  max-width: 450px;
+  height: 50%;
+}
+
+.section-404__img-404-wrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.description-404__heading {
+  margin-bottom: 30px;
+  font-size: 19px;
+  line-height: 120%;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-red);
+}
+
+.description-404__comment {
+  margin-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  text-align: center;
+  color: var(--black);
+}
+
+.description-404__comment > span {
+  color: var(--blue);
+}
+
+.description-404__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 220px;
+  height: 50px;
+  background-color: var(--white);
+  outline: 2px solid var(--dark-grey);
+  outline-offset: -2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.description-404__btn > span {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 700;
+  color: var(--dark-grey);
+}
+
+/* .description-404__btn:hover {
+  background-color: var(--dark-grey);
+} */
+
+/* .description-404__btn:active {
+  opacity: 0.7;
+} */
+
+/* .description-404__btn:hover > span {
+  color: var(--white);
+} */
+
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+
+@media (min-width:1200px) {   /* :hover and :active для desktop */
+
+  .description-404__btn:hover {
+    background-color: var(--dark-grey);
+  }
+
+  .description-404__btn:active {
+    opacity: 0.7;
+  }
+
+  .description-404__btn:hover > span {
+    color: var(--white);
+  }
+
+}
+
+@media (max-width:1199.98px) {   /* :active для mobile */
+
+  .description-404__btn:active {
+    background-color: var(--dark-grey);
+  }
+
+  .description-404__btn:active > span {
+    color: var(--white);
+  }
+
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+
+  /* main */
+
+  .description-404__comment {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media (min-width:320px) and (max-width: 370px) {
+
+  /* main */
+
+  .description-404__btn {
+    width: 100%;
+  }
+
+}

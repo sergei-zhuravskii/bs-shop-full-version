@@ -1,0 +1,125 @@
+
+/* import styles */
+
+@import url("/css/normalize.css"); /* styles Normalize */
+
+@import url("/css/styles-basic.css"); /* styles basic */
+
+@import url("/css/styles-header.css"); /* styles <header> */
+
+@import url("/css/styles-footer.css"); /* styles <footer> */
+
+/* section__privacy */
+
+.section__privacy {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 962px;
+}
+
+/* section-heading */
+
+.section-heading_mobile {
+  display: none;
+}
+
+/* privacy-text */
+
+.chapter-heading {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.chapter-text_last {
+  margin-bottom: 50px;
+}
+
+/* privacy-download-link */
+
+.privacy__download-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  width: fit-content;
+}
+
+.download-link__icon {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.download-link__icon svg path {
+  stroke: var(--blue);
+}
+
+/* .privacy__download-link:hover > .download-link__icon > svg path {
+  stroke: var(--red);
+} */
+
+/* .privacy__download-link:hover > .download-link__title {
+  color: var(--red);
+} */
+
+/* .privacy__download-link:active > .download-link__icon > svg path {
+  stroke: var(--dark-red);
+} */
+
+/* .privacy__download-link:active > .download-link__title {
+  color: var(--dark-red);
+} */
+
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+/* @media *//* @media *//* @media *//* @media */
+
+@media (min-width:1200px) {   /* :hover and :active для desktop */
+
+  /* privacy-download-link */
+
+  .privacy__download-link:hover > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .privacy__download-link:hover > .download-link__title {
+    color: var(--red);
+  }
+
+  .privacy__download-link:active > .download-link__icon > svg path {
+    stroke: var(--dark-red);
+  }
+
+  .privacy__download-link:active > .download-link__title {
+    color: var(--dark-red);
+  }
+
+}
+
+@media (max-width:1199.98px) {   /* :active для mobile */
+
+  /* privacy-download-link */
+
+  .privacy__download-link:active > .download-link__icon > svg path {
+    stroke: var(--red);
+  }
+
+  .privacy__download-link:active > .download-link__title {
+    color: var(--red);
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+
+  /* section-heading */
+
+  .section-heading {
+    display: none;
+  }
+
+  .section-heading_mobile {
+    display: block;
+  }
+
+}
