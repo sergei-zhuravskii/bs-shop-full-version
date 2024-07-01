@@ -1,13 +1,13 @@
 
 // import functions
 
-import createCards from '../create-html/create-cards.js'; // create cards
+import createCards from '/bs-shop-full-version/create-html/create-cards.js'; // create cards
 
-import showImgSlider from '../showing/show-img-slider.js'; // show img slider in card
+import showImgSlider from '/bs-shop-full-version/showing/show-img-slider.js'; // show img slider in card
 
-import showCardCounter from '../showing/show-card-counter.js'; // show counter in card
+import showCardCounter from '/bs-shop-full-version/showing/show-card-counter.js'; // show counter in card
 
-import createCart from '../create-html/create-cart.js'; // cart
+import createCart from '/bs-shop-full-version/create-html/create-cart.js'; // cart
 
 // function filter (price)
 
