@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bait Store _ Главная страница</title>
+  <link rel="stylesheet" href="/bs-shop-full-version/css/styles-index.css">
+  <link rel="shortcut icon" href="/bs-shop-full-version/icons/favicon.ico" type="image/x-icon">
+  <script src="/bs-shop-full-version/js/scripts-index.js" defer type="module"></script>
+</head>
+<body>
+  <!-- header -->
+  <header class="header" id="header">
+    <!-- HTML code of full <header> created on Java Script (see createHeaderFull.js) -->
+  </header>
+  <!-- main -->
+  <main class="main" id="main">
+    <div class="container main__container" id="main-container">
+      <!-- section__main-page -->
+      <section class="section__main-page">
+        <!-- main-page__filter-panel -->
+        <div class="main-page__filter-panel">
+          <!-- filter-panel__filter-list -->
+          <ul class="filter-panel__filter-list">
+            <!-- filter-item-1 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-1 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Тип приманки
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-1 -->
+              <ul class="filter-item__selection-wrapper">
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Волкер">
+                  Волкеры
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Глиссер">
+                  Глиссеры
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Джеркбейт">
+                  Джеркбейты
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Крэнк">
+                  Крэнки
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Минноу">
+                  Минноу
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Поппер">
+                  Попперы
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Раттлин">
+                  Раттлины
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Свимбейт">
+                  Свимбейты
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Шэд">
+                  Шэды
+                </li>
+              </ul>
+            </li>
+            <!-- filter-item-2 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-1 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Тип заглубления
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-1 -->
+              <ul class="filter-item__selection-wrapper">
+                <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Поверхностный">
+                  Поверхностные
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Мелководный">
+                  Мелководные
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Глубоководный">
+                  Глубоководные
+                </li>
+              </ul>
+            </li>
+            <!-- filter-item-3 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-3 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Длина (мм)
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-3 -->
+              <div class="filter-item__selection-wrapper">
+                <div class="input-selection__item-wrapper">
+                  <input type="number" class="input-selection__item" placeholder="От" id="lengthFrom">
+                  <input type="number" class="input-selection__item" placeholder="До" id="lengthTo">
+                </div>
+                <div class="filter-item__btn btn-filter" id="filter-length-btn">
+                  <span class="filter-btn__title">
+                    Фильтровать по длине
+                  </span>
+                </div>
+              </div>
+            </li>
+            <!-- filter-item-4 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-4 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Вес (г)
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-4 -->
+              <div class="filter-item__selection-wrapper">
+                <div class="input-selection__item-wrapper">
+                  <input type="number" class="input-selection__item" placeholder="От" id="weightFrom">
+                  <input type="number" class="input-selection__item" placeholder="До" id="weightTo">
+                </div>
+                <div class="filter-item__btn btn-filter" id="filter-weight-btn">
+                  <span class="filter-btn__title">
+                    Фильтровать по весу
+                  </span>
+                </div>
+              </div>
+            </li>
+            <!-- filter-item-5 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-5 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Наличие
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-5 -->
+              <ul class="filter-item__selection-wrapper">
+                <li class="selection__item-wrapper" data="filter" data-name="filter-availability" data-type="В наличии">
+                  В наличии
+                </li>
+                <li class="selection__item-wrapper" data="filter" data-name="filter-availability" data-type="Нет в наличии">
+                  Нет в наличии
+                </li>
+              </ul>
+            </li>
+            <!-- filter-item-6 -->
+            <li class="filter-list__filter-item">
+              <!-- filter-item__title-wrapper-6 -->
+              <div class="filter-item__title-wrapper">
+                <span class="filter-item__title">
+                  Цена (₽)
+                </span>
+                <div class="filter-item__marker">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <!-- filter-item__selection-wrapper-6 -->
+              <div class="filter-item__selection-wrapper">
+                <div class="input-selection__item-wrapper">
+                  <input type="number" class="input-selection__item" placeholder="От" id="priceFrom">
+                  <input type="number" class="input-selection__item" placeholder="До" id="priceTo">
+                </div>
+                <div class="filter-item__btn btn-filter" id="filter-price-btn">
+                  <span class="filter-btn__title">
+                    Фильтровать по цене
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- main-page__main-sections -->
+        <div class="main-page__main-sections">
+          <!-- filter-sorting-panel (<992px) -->
+          <div class="main-sections__filter-sorting-panel">
+            <!-- filter-sorting-panel__filter-btn -->
+            <div class="filter-sorting-panel__filter-btn btn-filter-sorting" data-name="filter-panel-btn-open">
+              <span class="filter-btn__title">
+                Фильтровать
+              </span>
+              <span class="filter-btn__icon">
+                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.33263 7.95112L36.015 42.0938V95.319C36.015 98.7801 39.651 101.025 42.7277 99.5284L61.3741 90.1743C62.9591 89.3324 63.9846 87.7422 63.9846 85.9649V42.0938L98.667 7.95112C99.3058 7.2974 99.7394 6.46994 99.9139 5.57133C100.088 4.67271 99.9963 3.74246 99.6489 2.8959C99.3014 2.04935 98.714 1.3237 97.9594 0.808944C97.2048 0.294183 96.3163 0.0129402 95.4039 8.07264e-05H4.68899C3.76866 -0.00534342 2.86732 0.262688 2.09856 0.770395C1.32981 1.2781 0.72805 2.00276 0.369119 2.85305C0.010189 3.70334 -0.0898479 4.6412 0.0816167 5.54844C0.253081 6.45568 0.688374 7.2917 1.33263 7.95112V7.95112Z" fill="white"/>
+                </svg>
+              </span>
+            </div>
+            <!-- filter-sorting-panel__sorting-btn -->
+            <div class="filter-sorting-panel__sorting-btn btn-filter-sorting" data-name="sorting-panel-btn-open">
+              <span class="sorting-btn__title">
+                Сортировать
+              </span>
+              <span class="sorting-btn__icon">
+                <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M39 0C37.7 0 36.8333 0.433333 35.9667 1.3L1.3 35.9667C0.433333 36.8333 0 37.7 0 39C0 40.3 0.433333 41.1667 1.3 42.0333L7.36667 48.1C8.23333 48.9667 9.53333 49.4 10.4 49.4C11.7 49.4 12.5667 48.9667 13.4333 48.1L22.1 39.4333C23.4 38.1333 26 39 26 41.1667V99.6667C26 101.833 28.1667 104 30.3333 104H39C41.1667 104 43.3333 101.833 43.3333 99.6667V4.33333C43.3333 3.03333 42.9 2.16667 42.0333 1.3C41.1667 0.433333 40.3 0 39 0Z" fill="#FFFFFF"/>
+                  <path d="M102.7 61.9667L96.6332 55.9C95.7665 55.0333 94.4665 54.6 93.5998 54.6C92.2998 54.6 91.4332 55.0333 90.5665 55.9L81.8998 64.5667C80.5998 65.8667 77.9998 65 77.9998 62.8333V4.33333C77.9998 2.16667 75.8332 0 73.6665 0H64.9998C62.8332 0 60.6665 2.16667 60.6665 4.33333V99.6667C60.6665 100.967 61.0998 101.833 61.9665 102.7C62.8332 103.567 64.1332 104 64.9998 104C66.2998 104 67.1665 103.567 68.0332 102.7L102.7 68.0333C103.567 67.1667 104 66.3 104 65C104 63.7 103.567 62.8333 102.7 61.9667V61.9667Z" fill="#FFFFFF"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <!-- sorting-panel -->
+          <div class="sorting-panel">
+            <!-- sorting-properties -->
+            <ul class="sorting-panel__sorting-properties">
+              <li class="sorting-properties__item">
+                Сортировать:
+              </li>
+              <li class="sorting-properties__item" data-name="sorting-title">
+                По названию (A-Z)
+              </li>
+              <li class="sorting-properties__item" data-name="sorting-price-increase">
+                По возрастанию цены
+              </li>
+              <li class="sorting-properties__item" data-name="sorting-price-reduction">
+                По убыванию цены
+              </li>
+            </ul>
+          </div>
+          <!-- filter-panel_mobile (<992px) (modal) -->
+          <div class="modal-window" data-name="filter-panel_mobile">
+            <div class="modal-window__modal-panel-wrapper_filter">
+              <div class="modal-window__modal-panel_filter">
+                <div class="modal-panel__filter-panel">
+                  <ul class="filter-panel__filter-list">
+                    <!-- filter-item-1 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-1 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Тип приманки
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-1 -->
+                      <ul class="filter-item__selection-wrapper">
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Волкер">
+                          Волкеры
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Глиссер">
+                          Глиссеры
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Джеркбейт">
+                          Джеркбейты
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Крэнк">
+                          Крэнки
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Минноу">
+                          Минноу
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Поппер">
+                          Попперы
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Раттлин">
+                          Раттлины
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Свимбейт">
+                          Свимбейты
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-type" data-type="Шэд">
+                          Шэды
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- filter-item-2 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-1 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Тип заглубления
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-1 -->
+                      <ul class="filter-item__selection-wrapper">
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Поверхностный">
+                          Поверхностные
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Мелководный">
+                          Мелководные
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-diving" data-type="Глубоководный">
+                          Глубоководные
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- filter-item-3 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-3 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Длина (мм)
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-3 -->
+                      <div class="filter-item__selection-wrapper">
+                        <div class="input-selection__item-wrapper">
+                          <input type="number" class="input-selection__item" placeholder="От" id="lengthFromMobile">
+                          <input type="number" class="input-selection__item" placeholder="До" id="lengthToMobile">
+                        </div>
+                        <div class="filter-item__btn btn-filter" id="filter-length-btn-mobile">
+                          <span class="filter-btn__title">
+                            Фильтровать по длине
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- filter-item-4 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-4 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Вес (г)
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-4 -->
+                      <div class="filter-item__selection-wrapper">
+                        <div class="input-selection__item-wrapper">
+                          <input type="number" class="input-selection__item" placeholder="От" id="weightFromMobile">
+                          <input type="number" class="input-selection__item" placeholder="До" id="weightToMobile">
+                        </div>
+                        <div class="filter-item__btn btn-filter" id="filter-weight-btn-mobile">
+                          <span class="filter-btn__title">
+                            Фильтровать по весу
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- filter-item-5 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-5 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Наличие
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-5 -->
+                      <ul class="filter-item__selection-wrapper">
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-availability" data-type="В наличии">
+                          В наличии
+                        </li>
+                        <li class="selection__item-wrapper" data="filter" data-name="filter-availability" data-type="Нет в наличии">
+                          Нет в наличии
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- filter-item-6 -->
+                    <li class="filter-list__filter-item">
+                      <!-- filter-item__title-wrapper-6 -->
+                      <div class="filter-item__title-wrapper">
+                        <span class="filter-item__title">
+                          Цена (₽)
+                        </span>
+                        <div class="filter-item__marker">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- filter-item__selection-wrapper-6 -->
+                      <div class="filter-item__selection-wrapper">
+                        <div class="input-selection__item-wrapper">
+                          <input type="number" class="input-selection__item" placeholder="От" id="priceFromMobile">
+                          <input type="number" class="input-selection__item" placeholder="До" id="priceToMobile">
+                        </div>
+                        <div class="filter-item__btn btn-filter" id="filter-price-btn-mobile">
+                          <span class="filter-btn__title">
+                            Фильтровать по цене
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- modal-panel__btn-close -->
+                <div class="modal-panel__btn-close-wrapper modal-panel__btn-close_filter">
+                  <div class="modal-panel__btn-close" data-name="filter-panel-btn-close">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sorting-panel_mobile (<992px) (modal) -->
+          <div class="modal-window" data-name="sorting-panel_mobile">
+            <div class="modal-window__modal-panel-wrapper_sorting">
+              <div class="modal-window__modal-panel_sorting">
+                <div class="modal-panel__sorting-panel">
+                  <ul class="sorting-panel__sorting-properties_mobile">
+                    <li class="sorting-properties__item_mobile" data="sorting" data-name="sorting-title">
+                      По названию (A-Z)
+                    </li>
+                    <li class="sorting-properties__item_mobile" data="sorting" data-name="sorting-price-increase">
+                      По возрастанию цены
+                    </li>
+                    <li class="sorting-properties__item_mobile" data="sorting" data-name="sorting-price-reduction">
+                      По убыванию цены
+                    </li>
+                  </ul>
+                </div>
+                <!-- modal-panel__btn-close -->
+                <div class="modal-panel__btn-close-wrapper modal-panel__btn-close_sorting">
+                  <div class="modal-panel__btn-close" data-name="sorting-panel-btn-close">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- main-sections__cards-list -->
+          <ul class="main-sections__cards-list">
+
+            <!-- Code created on Java Script (see createCards.js) -->
+
+          </ul>
+          <!-- main-sections__cards-quantity-panel -->
+          <div class="main-sections__cards-quantity-panel">
+            <div class="cards-quantity-panel__btn-show-more btn-more" data="btn-show-more">
+              <span class="btn-show-more__title">
+                Показать все товары
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="footer" id="footer">
+    <!-- HTML code <footer> created on Java Script (see createFooter.js) -->
+  </footer>
+</body>
+</html>
+
+<!-- Notice -->
+<!-- Данный сайт не является коммерческим проектом, а является результатом самостоятельной учебной работы при изучении курса вебразработки. Марка «Bait Store», индивидуальный предприниматель Рыбнов Рыба Рыбович (ИП Рыбнов Рыба Рыбович) ОГРНИП 1234567890123456, контактные данные и реквизиты интернет-магазина, условия работы с интернет-магазином, а также все товары, представленные на сайте, носят исключительно информационный характер и являются частью общего вымышленного контента (любые совпадения с реальными лицами, проектами и с прочими обстоятельствами случайны). -->
+<!-- Notice -->
