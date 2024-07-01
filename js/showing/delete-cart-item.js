@@ -1,7 +1,7 @@
 
 // import showCartCounter from '/bs-shop-full-version/showing/showCartCounter.js'; // show counter in cart
 
-import calculateCartPrice from '/bs-shop-full-version/showing/calculate-cart-price.js'; // calculate price in cart
+import calculateCartPrice from '/bs-shop-full-version/js/showing/calculate-cart-price.js'; // calculate price in cart
 
 // function delete item in cart
 

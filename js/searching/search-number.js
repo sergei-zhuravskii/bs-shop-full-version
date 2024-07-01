@@ -1,13 +1,13 @@
 
 // import functions
 
-import createCardSearching from '/bs-shop-full-version/create-html/create-card-searching.js'; // create searching card
+import createCardSearching from '/bs-shop-full-version/js/create-html/create-card-searching.js'; // create searching card
 
-import showImgSlider from '/bs-shop-full-version/showing/show-img-slider.js'; // show img slider in card
+import showImgSlider from '/bs-shop-full-version/js/showing/show-img-slider.js'; // show img slider in card
 
-import showCardCounter from '/bs-shop-full-version/showing/show-card-counter.js'; // show counter in card
+import showCardCounter from '/bs-shop-full-version/js/showing/show-card-counter.js'; // show counter in card
 
-import createCart from '/bs-shop-full-version/create-html/create-cart.js'; // cart
+import createCart from '/bs-shop-full-version/js/create-html/create-cart.js'; // cart
 
 // function search by number
 

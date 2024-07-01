@@ -1,9 +1,9 @@
 
 // импорт функций
 
-import calculateCartPrice from '/bs-shop-full-version/showing/calculate-cart-price.js'; // расчет цены в корзине (desctop version)
+import calculateCartPrice from '/bs-shop-full-version/js/showing/calculate-cart-price.js'; // расчет цены в корзине (desctop version)
 
-import createOrder from '/bs-shop-full-version/create-html/create-order.js'; // создать окно с оформлением заказа
+import createOrder from '/bs-shop-full-version/js/create-html/create-order.js'; // создать окно с оформлением заказа
 
 // функция (create cart) _ создать корзину
 
