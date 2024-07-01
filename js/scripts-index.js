@@ -29,7 +29,7 @@ import showCardCounter from '/bs-shop-full-version/js/showing/show-card-counter.
 
 import sortingRandom from '/bs-shop-full-version/js/sorting/sorting-random.js'; // random mix list of products
 
-import filterType from '/bs-shop-full-version/js/Filter/filter-type.js'; // filter (type)
+import filterType from '/bs-shop-full-version/js/filter/filter-type.js'; // filter (type)
 
 import filterAvailability from '/bs-shop-full-version/js/filter/filter-availability.js'; // filter (availability)
 
@@ -41,7 +41,7 @@ import filterWeight from '/bs-shop-full-version/js/filter/filter-weight.js'; // 
 
 import filterPrice from '/bs-shop-full-version/js/filter/filter-price.js'; // filter (price)
 
-import sortingTitle from '/bs-shop-full-version/js/Sorting/sorting-title.js'; // sorting (title)
+import sortingTitle from '/bs-shop-full-version/js/sorting/sorting-title.js'; // sorting (title)
 
 import sortingPriceIncrease from '/bs-shop-full-version/js/sorting/sorting-price-increase.js'; // sorting (price increase)
 
