@@ -1,13 +1,13 @@
 
 /* import styles */
 
-@import url("/css/normalize.css"); /* styles Normalize */
+@import url("/bs-shop-full-version/css/normalize.css"); /* styles Normalize */
 
-@import url("/css/styles-basic.css"); /* styles basic */
+@import url("/bs-shop-full-version/css/styles-basic.css"); /* styles basic */
 
-@import url("/css/styles-header.css"); /* styles <header> */
+@import url("/bs-shop-full-version/css/styles-header.css"); /* styles <header> */
 
-@import url("/css/styles-footer.css"); /* styles <footer> */
+@import url("/bs-shop-full-version/css/styles-footer.css"); /* styles <footer> */
 
 /* section__personal-data */
 
