@@ -1,0 +1,1 @@
+# bs-shop-full-version
