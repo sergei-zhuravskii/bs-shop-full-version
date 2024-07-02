@@ -163,14 +163,6 @@ h2 {
   color: var(--white);
 }
 
-/* .btn-action:hover {
-  background-color: var(--light-black);
-} */
-
-/* .btn-action:active {
-  opacity: 0.7;
-} */
-
 .btn-filter-sorting {
   background-color: var(--orange);
   border-radius: 4px;
@@ -183,14 +175,6 @@ h2 {
   font-weight: 600;
   color: var(--white);
 }
-
-/* .btn-filter-sorting:hover {
-  background-color: var(--red);
-} */
-
-/* .btn-filter-sorting:active {
-  opacity: 0.7;
-} */
 
 .btn-cancel,
 .btn-more {
@@ -209,21 +193,6 @@ h2 {
   color: var(--dark-grey);
 }
 
-/* .btn-cancel:hover,
-.btn-more:hover {
-  background-color: var(--dark-grey);
-} */
-
-/* .btn-cancel:active,
-.btn-more:active {
-  opacity: 0.7;
-} */
-
-/* .btn-cancel:hover > span,
-.btn-more:hover > span {
-  color: var(--white);
-} */
-
 .btn-switching {
   background-color: var(--orange);
   border-radius: 4px;
@@ -233,14 +202,6 @@ h2 {
 .btn-switching > span {
   background-color: var(--white);
 }
-
-/* .btn-switching:hover {
-  background-color: var(--red);
-} */
-
-/* .btn-switching:active {
-  opacity: 0.7;
-} */
 
 .btn-counter {
   background-color: var(--orange);
@@ -272,15 +233,6 @@ h2 {
   font-weight: 600;
   color: var(--white);
 }
-
-/* .btn-filter:hover {
-  background-color: var(--light-black);
-  opacity: 0.7;
-} */
-
-/* .btn-filter:active {
-  opacity: 0.6;
-} */
 
 .modal-window {
   display: none;
