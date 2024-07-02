@@ -44,14 +44,6 @@
   height: 50px;
 }
 
-/* .social-access__link-wrapper:hover {
-  filter: brightness(80%);
-} */
-
-/* .social-access__link-wrapper:active {
-  opacity: 0.8;
-} */
-
 /* account-entry__login-access */
 
 .login-access__item {
@@ -116,19 +108,6 @@
   cursor: pointer;
 }
 
-/* .help-panel__recover:hover {
-  color: var(--light-black);
-} */
-
-/* .help-panel__register:hover {
-  color: var(--light-black);
-} */
-
-/* .help-panel__recover:active,
-.help-panel__register:active {
-  opacity: 0.8;
-} */
-
 /* account-entry__btn-log */
 
 .account-entry__btn-log-wrapper {
@@ -150,7 +129,6 @@
 /* account-entry-recover *//* modal-window */
 
 .account-entry__modal-container {
-  /* display: flex; */
   position: fixed;
   top: 0;
   right: 0;
@@ -265,14 +243,6 @@
   cursor: pointer;
 }
 
-/* .account-cash:hover {
-  background-color: var(--light-black);
-} */
-
-/* .account-cash:active {
-  opacity: 0.8;
-} */
-
 .account-login__title {
   text-align: center;
   font-size: 19px;
@@ -309,15 +279,6 @@
   align-items: center;
   margin-bottom: 10px;
 }
-
-/* .personal-account-item__heading-wrapper:hover > .personal-account-item__heading {
-  outline: 1px solid var(--red);
-  outline-offset: -1px;
-} */
-
-/* .personal-account-item__heading-wrapper:hover > .personal-account-item__btn {
-  background-color: var(--red);
-} */
 
 .personal-account-item__heading {
   display: flex;
@@ -480,10 +441,6 @@
   margin-bottom: 30px;
 }
 
-/* .registration__conditions-item-link:hover {
-  color: var(--red);
-} */
-
 /* registration__btn */
 
 .registration__btn-wrapper {
@@ -505,7 +462,6 @@
 /* confirmation-registration *//* modal-window */
 
 .registration__modal-container {
-  /* display: flex; */
   position: fixed;
   top: 0;
   right: 0;
