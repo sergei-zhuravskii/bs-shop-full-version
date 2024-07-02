@@ -24,7 +24,7 @@ function createFooter() {
         <!-- footer-link-1_1 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_1">
-          <a href="/contract.html" class="footer-menu__item-link">
+          <a href="contract.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Договор-оферта
             </span>
@@ -34,7 +34,7 @@ function createFooter() {
         <!-- footer-link-1_2 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_2">
-          <a href="/privacy-policy.html" class="footer-menu__item-link">
+          <a href="privacy-policy.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Политика конфиденциальности
             </span>
@@ -44,7 +44,7 @@ function createFooter() {
         <!-- footer-link-1_3 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_3">
-          <a href="/personal-data.html" class="footer-menu__item-link">
+          <a href="personal-data.html" class="footer-menu__item-link">
             <p class="footer-menu__item">
               Согласие на обработку персональных данных
             </p>
@@ -54,7 +54,7 @@ function createFooter() {
         <!-- footer-link-1_4 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_4">
-          <a href="/payment.html" class="footer-menu__item-link">
+          <a href="payment.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Оплата
             </span>
@@ -64,7 +64,7 @@ function createFooter() {
         <!-- footer-link-1_5 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_5">
-          <a href="/delivery.html" class="footer-menu__item-link">
+          <a href="delivery.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Доставка
             </span>
@@ -74,7 +74,7 @@ function createFooter() {
         <!-- footer-link-1_6 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_6">
-          <a href="/warranty.html" class="footer-menu__item-link">
+          <a href="warranty.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Гарантия
             </span>
@@ -84,7 +84,7 @@ function createFooter() {
         <!-- footer-link-1_7 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_7">
-          <a href="/change-return.html" class="footer-menu__item-link">
+          <a href="change-return.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Обмен и возврат
             </span>
@@ -94,7 +94,7 @@ function createFooter() {
         <!-- footer-link-1_8 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_8">
-          <a href="/faq.html" class="footer-menu__item-link">
+          <a href="faq.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Как подобрать приманку
             </span>
@@ -104,7 +104,7 @@ function createFooter() {
         <!-- footer-link-1_9 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-1_9">
-          <a href="/contacts.html" class="footer-menu__item-link">
+          <a href="contacts.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Контакты
             </span>
@@ -119,7 +119,7 @@ function createFooter() {
         <!-- footer-link-2_1 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_1">
-          <a href="/personal-data.html" class="footer-menu__item-link">
+          <a href="personal-data.html" class="footer-menu__item-link">
             <p class="footer-menu__item">
               Согласие на обработку персональных данных
             </p>
@@ -129,7 +129,7 @@ function createFooter() {
         <!-- footer-link-2_2 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_2">
-          <a href="/payment.html" class="footer-menu__item-link">
+          <a href="payment.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Оплата
             </span>
@@ -139,7 +139,7 @@ function createFooter() {
         <!-- footer-link-2_3 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_3">
-          <a href="/delivery.html" class="footer-menu__item-link">
+          <a href="delivery.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Доставка
             </span>
@@ -149,7 +149,7 @@ function createFooter() {
         <!-- footer-link-2_4 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_4">
-          <a href="/warranty.html" class="footer-menu__item-link">
+          <a href="warranty.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Гарантия
             </span>
@@ -159,7 +159,7 @@ function createFooter() {
         <!-- footer-link-2_5 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_5">
-          <a href="/change-return.html" class="footer-menu__item-link">
+          <a href="change-return.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Обмен и возврат
             </span>
@@ -169,7 +169,7 @@ function createFooter() {
         <!-- footer-link-2_6 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_6">
-          <a href="/faq.html" class="footer-menu__item-link">
+          <a href="faq.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Как подобрать приманку
             </span>
@@ -179,7 +179,7 @@ function createFooter() {
         <!-- footer-link-2_7 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-2_7">
-          <a href="/contacts.html" class="footer-menu__item-link">
+          <a href="contacts.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Контакты
             </span>
@@ -192,7 +192,7 @@ function createFooter() {
       <ul class="footer-nav__footer-menu-line" data-name="footer-menu-line-3">
         <!-- footer-link-3_1 -->
         <li class="footer-menu__item-wrapper" data-name="footer-link-3_1">
-          <a href="/delivery.html" class="footer-menu__item-link">
+          <a href="delivery.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Доставка
             </span>
@@ -202,7 +202,7 @@ function createFooter() {
         <!-- footer-link-3_2 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-3_2">
-          <a href="/warranty.html" class="footer-menu__item-link">
+          <a href="warranty.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Гарантия
             </span>
@@ -212,7 +212,7 @@ function createFooter() {
         <!-- footer-link-3_3 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-3_3">
-          <a href="/change-return.html" class="footer-menu__item-link">
+          <a href="change-return.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Обмен и возврат
             </span>
@@ -222,7 +222,7 @@ function createFooter() {
         <!-- footer-link-3_4 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-3_4">
-          <a href="/faq.html" class="footer-menu__item-link">
+          <a href="faq.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Как подобрать приманку
             </span>
@@ -232,7 +232,7 @@ function createFooter() {
         <!-- footer-link-3_5 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-3_5">
-          <a href="/contacts.html" class="footer-menu__item-link">
+          <a href="contacts.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Контакты
             </span>
@@ -245,7 +245,7 @@ function createFooter() {
       <ul class="footer-nav__footer-menu-line" data-name="footer-menu-line-4">
         <!-- footer-link-4_1 -->
         <li class="footer-menu__item-wrapper" data-name="footer-link-4_1">
-          <a href="/faq.html" class="footer-menu__item-link">
+          <a href="faq.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Как подобрать приманку
             </span>
@@ -255,7 +255,7 @@ function createFooter() {
         <!-- footer-link-4_2 -->
 
         <li class="footer-menu__item-wrapper" data-name="footer-link-4_2">
-          <a href="/contacts.html" class="footer-menu__item-link">
+          <a href="contacts.html" class="footer-menu__item-link">
             <span class="footer-menu__item">
               Контакты
             </span>
@@ -268,7 +268,7 @@ function createFooter() {
 
       <ul class="footer__social-links_mobile">
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 2.5C37.92 2.5 48 12.58 48 25C48 37.42 37.92 47.5 25.5 47.5C13.08 47.5 3 37.42 3 25C3 12.58 13.08 2.5 25.5 2.5Z" fill="#111111"/>
@@ -277,7 +277,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="social_path-background" d="M26.1605 33.9285C17.0089 33.9285 11.789 27.6276 11.5715 17.1428H16.1557C16.3063 24.8384 19.6858 28.0981 22.3627 28.7702V17.1428H26.6794V23.7798C29.3228 23.4942 32.0998 20.4697 33.0367 17.1428H37.3532C36.6338 21.2426 33.6223 24.2671 31.4808 25.5105C33.6223 26.5186 37.0523 29.1566 38.3572 33.9285H33.6056C32.585 30.7361 30.0422 28.2661 26.6794 27.93V33.9285H26.1605Z" fill="#C0C0C0"/>
               <path class="social_path-background" fill-rule="evenodd" clip-rule="evenodd" d="M25.5 50C39.3071 50 50.5 38.8071 50.5 25C50.5 11.1929 39.3071 0 25.5 0C11.6929 0 0.5 11.1929 0.5 25C0.5 38.8071 11.6929 50 25.5 50ZM25.4999 47.5C37.9263 47.5 47.9999 37.4264 47.9999 25C47.9999 12.5736 37.9263 2.5 25.4999 2.5C13.0735 2.5 2.99994 12.5736 2.99994 25C2.99994 37.4264 13.0735 47.5 25.4999 47.5Z" fill="#C0C0C0"/>
@@ -285,7 +285,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 47.5C37.9264 47.5 48 37.4264 48 25C48 12.5736 37.9264 2.5 25.5 2.5C13.0736 2.5 3 12.5736 3 25C3 37.4264 13.0736 47.5 25.5 47.5Z" fill="#111111"/>
@@ -294,7 +294,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 2.5C37.92 2.5 48 12.58 48 25C48 37.42 37.92 47.5 25.5 47.5C13.08 47.5 3 37.42 3 25C3 12.5575 13.08 2.5 25.5 2.5Z" fill="#111111"/>
@@ -341,7 +341,7 @@ function createFooter() {
 
       <ul class="footer-info__social">
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 2.5C37.92 2.5 48 12.58 48 25C48 37.42 37.92 47.5 25.5 47.5C13.08 47.5 3 37.42 3 25C3 12.58 13.08 2.5 25.5 2.5Z" fill="#111111"/>
@@ -350,7 +350,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="social_path-background" d="M26.1605 33.9285C17.0089 33.9285 11.789 27.6276 11.5715 17.1428H16.1557C16.3063 24.8384 19.6858 28.0981 22.3627 28.7702V17.1428H26.6794V23.7798C29.3228 23.4942 32.0998 20.4697 33.0367 17.1428H37.3532C36.6338 21.2426 33.6223 24.2671 31.4808 25.5105C33.6223 26.5186 37.0523 29.1566 38.3572 33.9285H33.6056C32.585 30.7361 30.0422 28.2661 26.6794 27.93V33.9285H26.1605Z" fill="#C0C0C0"/>
               <path class="social_path-background" fill-rule="evenodd" clip-rule="evenodd" d="M25.5 50C39.3071 50 50.5 38.8071 50.5 25C50.5 11.1929 39.3071 0 25.5 0C11.6929 0 0.5 11.1929 0.5 25C0.5 38.8071 11.6929 50 25.5 50ZM25.4999 47.5C37.9263 47.5 47.9999 37.4264 47.9999 25C47.9999 12.5736 37.9263 2.5 25.4999 2.5C13.0735 2.5 2.99994 12.5736 2.99994 25C2.99994 37.4264 13.0735 47.5 25.4999 47.5Z" fill="#C0C0C0"/>
@@ -358,7 +358,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 47.5C37.9264 47.5 48 37.4264 48 25C48 12.5736 37.9264 2.5 25.5 2.5C13.0736 2.5 3 12.5736 3 25C3 37.4264 13.0736 47.5 25.5 47.5Z" fill="#111111"/>
@@ -367,7 +367,7 @@ function createFooter() {
           </a>
         </li>
         <li class="social__item">
-          <a href="/page-404.html" class="social__item-link">
+          <a href="page-404.html" class="social__item-link">
             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="social_path-background" cx="25.5" cy="25" r="25" fill="#C0C0C0"/>
               <path d="M25.5 2.5C37.92 2.5 48 12.58 48 25C48 37.42 37.92 47.5 25.5 47.5C13.08 47.5 3 37.42 3 25C3 12.5575 13.08 2.5 25.5 2.5Z" fill="#111111"/>
