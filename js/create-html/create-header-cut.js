@@ -85,7 +85,7 @@ function createHeaderCut() {
 
         <div class="header-top__account">
           <span class="header-top__account-icon">
-            <a href="/account.html" class="header-top__account-icon-link">
+            <a href="account.html" class="header-top__account-icon-link">
               <svg width="133" height="133" viewBox="0 0 133 133" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="account-icon_path-background" d="M66.5 132.719C53.4032 132.719 40.6005 128.835 29.7109 121.559C18.8212 114.283 10.3338 103.941 5.32188 91.8408C0.309942 79.741 -1.00141 66.4266 1.55365 53.5814C4.10872 40.7362 10.4154 28.9372 19.6763 19.6763C28.9372 10.4154 40.7362 4.10872 53.5814 1.55365C66.4266 -1.00141 79.741 0.309942 91.8408 5.32188C103.941 10.3338 114.283 18.8212 121.559 29.7109C128.835 40.6005 132.719 53.4032 132.719 66.5C132.719 84.0623 125.742 100.905 113.324 113.324C100.905 125.742 84.0623 132.719 66.5 132.719V132.719ZM66.5 10.4688C55.4181 10.4688 44.585 13.755 35.3707 19.9117C26.1564 26.0685 18.9748 34.8194 14.7339 45.0578C10.493 55.2962 9.38343 66.5622 11.5454 77.4312C13.7074 88.3002 19.0438 98.284 26.88 106.12C34.7161 113.956 44.6999 119.293 55.5689 121.455C66.4379 123.617 77.7039 122.507 87.9423 118.266C98.1806 114.025 106.932 106.844 113.088 97.6293C119.245 88.415 122.531 77.582 122.531 66.5C122.531 51.6396 116.628 37.3879 106.12 26.88C95.6122 16.3721 81.3604 10.4688 66.5 10.4688Z" fill="#F57000"/>
                 <path class="account-icon_path-background" d="M66.5 71.5938C61.4628 71.5938 56.5386 70.1 52.3503 67.3015C48.162 64.503 44.8976 60.5253 42.97 55.8715C41.0423 51.2177 40.5379 46.0968 41.5206 41.1563C42.5034 36.2159 44.929 31.6778 48.4909 28.1159C52.0528 24.554 56.5909 22.1284 61.5313 21.1456C66.4718 20.1629 71.5927 20.6673 76.2465 22.595C80.9003 24.5226 84.878 27.787 87.6765 31.9753C90.4751 36.1636 91.9688 41.0878 91.9688 46.125C91.9688 52.8797 89.2855 59.3578 84.5091 64.1341C79.7328 68.9105 73.2547 71.5938 66.5 71.5938ZM66.5 30.8438C63.4777 30.8438 60.5232 31.74 58.0102 33.4191C55.4972 35.0982 53.5386 37.4848 52.382 40.2771C51.2254 43.0694 50.9228 46.142 51.5124 49.1062C52.102 52.0705 53.5574 54.7934 55.6945 56.9305C57.8317 59.0676 60.5545 60.523 63.5188 61.1126C66.4831 61.7023 69.5556 61.3996 72.3479 60.243C75.1402 59.0864 77.5268 57.1278 79.2059 54.6148C80.885 52.1018 81.7813 49.1474 81.7813 46.125C81.7813 42.0722 80.1713 38.1853 77.3055 35.3195C74.4397 32.4537 70.5529 30.8438 66.5 30.8438Z" fill="#F57000"/>
@@ -93,7 +93,7 @@ function createHeaderCut() {
               </svg>
             </a>
           </span>
-          <a href="/account.html" class="header-top__account-link">
+          <a href="account.html" class="header-top__account-link">
             <span class="header-top__account-title">
               Вход / Регистрация
             </span>
@@ -110,15 +110,15 @@ function createHeaderCut() {
         <ul class="header-nav__menu">
           <li class="menu__item">
             <span class="menu__item-line-hover"></span>
-            <a href="/index.html" class="menu__item-link">Главная</a>
+            <a href="index.html" class="menu__item-link">Главная</a>
           </li>
           <li class="menu__item">
             <span class="menu__item-line-hover"></span>
-            <a href="/about.html" class="menu__item-link">О магазине</a>
+            <a href="about.html" class="menu__item-link">О магазине</a>
           </li>
           <li class="menu__item">
             <span class="menu__item-line-hover"></span>
-            <a href="/contacts.html" class="menu__item-link">Контакты</a>
+            <a href="contacts.html" class="menu__item-link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -146,17 +146,17 @@ function createHeaderCut() {
             <!-- burger-menu__item-link_main -->
 
             <li class="burger-menu__item_main">
-              <a href="/index.html" class="burger-menu__item-link_main" data-name="nav-link">
+              <a href="index.html" class="burger-menu__item-link_main" data-name="nav-link">
                 Главная
               </a>
             </li>
             <li class="burger-menu__item_main">
-              <a href="/about.html" class="burger-menu__item-link_main" data-name="nav-link">
+              <a href="about.html" class="burger-menu__item-link_main" data-name="nav-link">
                 О магазине
               </a>
             </li>
             <li class="burger-menu__item_main">
-              <a href="/contacts.html" class="burger-menu__item-link_main" data-name="nav-link">
+              <a href="contacts.html" class="burger-menu__item-link_main" data-name="nav-link">
                 Контакты
               </a>
             </li>
@@ -164,47 +164,47 @@ function createHeaderCut() {
             <!-- burger-menu__item-link_secondary -->
 
             <li class="burger-menu__item_secondary">
-              <a href="/contract.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="contract.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Договор-оферта
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/privacy-policy.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="privacy-policy.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Политика конфиденциальности
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/personal-data.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="personal-data.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Согласие на обработку персональных данных
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/payment.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="payment.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Оплата
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/delivery.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="delivery.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Доставка
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/warranty.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="warranty.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Гарантия
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/change-return.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="change-return.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Обмен и возврат
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/faq.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="faq.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Как подобрать приманку
               </a>
             </li>
             <li class="burger-menu__item_secondary">
-              <a href="/contacts.html" class="burger-menu__item-link_secondary" data-name="nav-link">
+              <a href="contacts.html" class="burger-menu__item-link_secondary" data-name="nav-link">
                 Контакты
               </a>
             </li>
@@ -215,7 +215,7 @@ function createHeaderCut() {
 
         <ul class="header__links-menu" data-name="links-menu">
           <li class="links-menu__item">
-            <a href="/index.html" class="header-top__home-icon-link">
+            <a href="index.html" class="header-top__home-icon-link">
               <svg width="109" height="101" viewBox="0 0 109 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="links-item_path-background" d="M54.5007 20.4635L15.6263 57.5124C15.6263 57.5647 15.6149 57.6416 15.5922 57.7465C15.5699 57.8505 15.5581 57.9261 15.5581 57.9797V95.4957C15.5581 96.8503 15.9865 98.0241 16.843 99.0127C17.6993 100.002 18.7133 100.499 19.8852 100.499H45.846V70.4858H63.1556V100.501H89.1161C90.2878 100.501 91.3032 100.004 92.1583 99.0127C93.0148 98.0252 93.4446 96.8505 93.4446 95.4957V57.9797C93.4446 57.7717 93.42 57.6145 93.3764 57.5124L54.5007 20.4635Z" fill="#C0C0C0"/>
                 <path class="links-item_path-background" d="M108.248 49.0705L93.4427 34.8456V2.95642C93.4427 2.2274 93.24 1.62787 92.8332 1.15865C92.4297 0.689983 91.9111 0.455646 91.2791 0.455646H78.2984C77.6671 0.455646 77.1488 0.689983 76.7426 1.15865C76.3375 1.62787 76.135 2.22768 76.135 2.95642V18.1973L59.6388 2.25231C58.1981 0.89749 56.4851 0.220215 54.5016 0.220215C52.5184 0.220215 50.8056 0.89749 49.3634 2.25231L0.751272 49.0705C0.300635 49.4867 0.0536496 50.0468 0.00770972 50.7503C-0.0379933 51.4533 0.119481 52.0674 0.480606 52.5881L4.67226 58.372C5.03339 58.8407 5.50605 59.1273 6.09213 59.2321C6.63323 59.2847 7.17433 59.1018 7.71542 58.6852L54.5002 13.5859L101.285 58.6849C101.647 59.0485 102.119 59.23 102.705 59.23H102.908C103.494 59.127 103.965 58.8385 104.328 58.3709L108.52 52.5878C108.881 52.066 109.039 51.4531 108.992 50.7492C108.946 50.0476 108.698 49.4875 108.248 49.0705Z" fill="#C0C0C0"/>
@@ -223,7 +223,7 @@ function createHeaderCut() {
               </a>
           </li>
           <li class="links-menu__item">
-            <a href="/account.html" class="header-top__account-icon-link">
+            <a href="account.html" class="header-top__account-icon-link">
               <svg width="133" height="133" viewBox="0 0 133 133" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="links-item_path-background" d="M66.5 132.719C53.4032 132.719 40.6005 128.835 29.7109 121.559C18.8212 114.283 10.3338 103.941 5.32188 91.8408C0.309942 79.741 -1.00141 66.4266 1.55365 53.5814C4.10872 40.7362 10.4154 28.9372 19.6763 19.6763C28.9372 10.4154 40.7362 4.10872 53.5814 1.55365C66.4266 -1.00141 79.741 0.309942 91.8408 5.32188C103.941 10.3338 114.283 18.8212 121.559 29.7109C128.835 40.6005 132.719 53.4032 132.719 66.5C132.719 84.0623 125.742 100.905 113.324 113.324C100.905 125.742 84.0623 132.719 66.5 132.719V132.719ZM66.5 10.4688C55.4181 10.4688 44.585 13.755 35.3707 19.9117C26.1564 26.0685 18.9748 34.8194 14.7339 45.0578C10.493 55.2962 9.38343 66.5622 11.5454 77.4312C13.7074 88.3002 19.0438 98.284 26.88 106.12C34.7161 113.956 44.6999 119.293 55.5689 121.455C66.4379 123.617 77.7039 122.507 87.9423 118.266C98.1806 114.025 106.932 106.844 113.088 97.6293C119.245 88.415 122.531 77.582 122.531 66.5C122.531 51.6396 116.628 37.3879 106.12 26.88C95.6122 16.3721 81.3604 10.4688 66.5 10.4688Z" fill="#F57000"/>
                 <path class="links-item_path-background" d="M66.5 71.5938C61.4628 71.5938 56.5386 70.1 52.3503 67.3015C48.162 64.503 44.8976 60.5253 42.97 55.8715C41.0423 51.2177 40.5379 46.0968 41.5206 41.1563C42.5034 36.2159 44.929 31.6778 48.4909 28.1159C52.0528 24.554 56.5909 22.1284 61.5313 21.1456C66.4718 20.1629 71.5927 20.6673 76.2465 22.595C80.9003 24.5226 84.878 27.787 87.6765 31.9753C90.4751 36.1636 91.9688 41.0878 91.9688 46.125C91.9688 52.8797 89.2855 59.3578 84.5091 64.1341C79.7328 68.9105 73.2547 71.5938 66.5 71.5938ZM66.5 30.8438C63.4777 30.8438 60.5232 31.74 58.0102 33.4191C55.4972 35.0982 53.5386 37.4848 52.382 40.2771C51.2254 43.0694 50.9228 46.142 51.5124 49.1062C52.102 52.0705 53.5574 54.7934 55.6945 56.9305C57.8317 59.0676 60.5545 60.523 63.5188 61.1126C66.4831 61.7023 69.5556 61.3996 72.3479 60.243C75.1402 59.0864 77.5268 57.1278 79.2059 54.6148C80.885 52.1018 81.7813 49.1474 81.7813 46.125C81.7813 42.0722 80.1713 38.1853 77.3055 35.3195C74.4397 32.4537 70.5529 30.8438 66.5 30.8438Z" fill="#F57000"/>
