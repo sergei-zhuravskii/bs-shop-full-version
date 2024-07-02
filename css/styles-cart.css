@@ -205,18 +205,9 @@
   background-size: contain;
 }
 
-/* .product-price__btn-delete:hover {
-  background-image: url(/icons/Close-btn-active.png);
-} */
-
-/* .product-price__btn-delete:active {
-  opacity: 0.7;
-} */
-
 /* cart__place-order */
 
 .cart__place-order-wrapper {
-  /* display: flex; */
   display: none;
   flex-direction: row;
   justify-content: center;
