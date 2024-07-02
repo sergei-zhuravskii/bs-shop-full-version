@@ -122,10 +122,10 @@ function createAccount() {
 
           <div class="registration__conditions">
             <p class="registration__conditions-item font-main">
-              Отправляя форму, даю <a href="/personal-data.html" target="_blank" class="registration__conditions-item-link">Согласие на обработку моих персональных данных</a>.
+              Отправляя форму, даю <a href="personal-data.html" target="_blank" class="registration__conditions-item-link">Согласие на обработку моих персональных данных</a>.
             </p>
             <p class="registration__conditions-item font-main">
-              С положениями <a href="/privacy-policy.html" target="_blank" class="registration__conditions-item-link">Политики конфиденциальности ознакомлен</a>.
+              С положениями <a href="privacy-policy.html" target="_blank" class="registration__conditions-item-link">Политики конфиденциальности ознакомлен</a>.
             </p>
           </div>
 
