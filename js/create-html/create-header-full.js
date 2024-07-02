@@ -131,7 +131,7 @@ function createHeaderFull() {
           </li>
           <li class="menu__item">
             <span class="menu__item-line-hover"></span>
-            <a href="/about.html" class="menu__item-link">О магазине</a>
+            <a href="about.html" class="menu__item-link">О магазине</a>
           </li>
           <li class="menu__item">
             <span class="menu__item-line-hover"></span>
@@ -179,7 +179,7 @@ function createHeaderFull() {
               </a>
             </li>
             <li class="burger-menu__item_main">
-              <a href="/about.html" class="burger-menu__item-link_main" data-name="nav-link">
+              <a href="about.html" class="burger-menu__item-link_main" data-name="nav-link">
                 О магазине
               </a>
             </li>
