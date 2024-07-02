@@ -544,14 +544,14 @@
 }
 
 .availability-icon-yes {
-  background-image: url(/icons/availability-yes.svg);
+  background-image: url(/bs-shop-full-version/icons/availability-yes.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .availability-icon-no {
-  background-image: url(/icons/availability-no.svg);
+  background-image: url(/bs-shop-full-version/icons/availability-no.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
