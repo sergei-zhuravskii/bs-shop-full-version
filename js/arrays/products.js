@@ -6,9 +6,9 @@ let products = [
   {
     id: 1,
     number: 1001,
-    img1: '/img-products/popper-1a.png',
-    img2: '/img-products/popper-1b.png',
-    img3: '/img-products/popper-1c.png',
+    img1: 'img-products/popper-1a.png',
+    img2: 'img-products/popper-1b.png',
+    img3: 'img-products/popper-1c.png',
     title: 'Popper 50F-5',
     type: 'Поппер',
     diving: 'Поверхностный',
