@@ -142,7 +142,7 @@
 .checkbox-selection__item:checked + label::before {
   background-color: var(--orange);
   border-color: var(--orange);
-  background-image: url(/icons/checkbox.svg);
+  background-image: url(/bs-shop-full-version/icons/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
