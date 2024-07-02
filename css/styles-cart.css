@@ -162,14 +162,14 @@
 }
 
 [data-action="cart-minus"] {
-  background-image: url(/icons/minus-btn.png);
+  background-image: url(/bs-shop-full-version/icons/minus-btn.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 [data-action="cart-plus"] {
-  background-image: url(/icons/plus-btn.png);
+  background-image: url(/bs-shop-full-version/icons/plus-btn.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
