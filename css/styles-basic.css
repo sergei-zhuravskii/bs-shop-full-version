@@ -214,14 +214,6 @@ h2 {
   background-color: var(--white);
 }
 
-.btn-counter:hover {
-  background-color: var(--red);
-}
-
-.btn-counter:active {
-  opacity: 0.7;
-}
-
 .btn-filter {
   background-color: var(--dark-grey);
   border-radius: 4px;
@@ -336,6 +328,14 @@ h2 {
     opacity: 0.6;
   }
 
+  .btn-counter:hover {
+    background-color: var(--red);
+  }
+
+  .btn-counter:active {
+    opacity: 0.7;
+  }
+
 }
 
 @media (max-width:1199.98px) {   /* :active для mobile */
@@ -365,6 +365,10 @@ h2 {
   .btn-filter:active {
     background-color: var(--light-black);
     opacity: 0.7;
+  }
+
+  .btn-counter:active {
+    background-color: var(--red);
   }
 
 }
