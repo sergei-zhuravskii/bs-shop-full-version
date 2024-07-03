@@ -336,6 +336,14 @@ h2 {
     opacity: 0.7;
   }
 
+  .modal-btn-close:hover > span {
+    background-color: var(--red);
+  }
+
+  .modal-btn-close:active > span {
+    opacity: 0.7;
+  }
+
 }
 
 @media (max-width:1199.98px) {   /* :active для mobile */
@@ -368,6 +376,10 @@ h2 {
   }
 
   .btn-counter:active {
+    background-color: var(--red);
+  }
+
+  .modal-btn-close:active > span {
     background-color: var(--red);
   }
 
