@@ -298,7 +298,7 @@ function createHeaderFull() {
       <div class="modal-window modal-window_mobile" data-name="search-panel_mobile">
         <div class="modal-window__search-panel-wrapper">
           <div class="modal-panel__search-panel">
-            <input type="text" class="search-panel__input" data-name="search-input_mobile" placeholder="Поиск по сайту ...">
+            <input type="text" class="search-panel__input" data-name="search-input_mobile" placeholder="Поиск по артикулу ...">
             <div class="search-panel__btn search-panel__btn_mobile" data-name="search-btn">
               <svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="search-btn_path-background" d="M139.537 122.54L105.428 93.5302C101.902 90.3569 98.1312 88.9 95.0847 89.0406C103.137 79.6094 108 67.3733 108 54.0002C108 24.1766 83.8237 0 54.0002 0C24.1769 0 0 24.1766 0 54.0002C0 83.8237 24.1766 108 54.0002 108C67.3733 108 79.6094 103.137 89.0406 95.0847C88.9 98.1309 90.3569 101.902 93.5302 105.428L122.54 139.537C127.508 145.056 135.622 145.521 140.571 140.571C145.521 135.622 145.056 127.508 139.537 122.54ZM54.0002 90.0003C34.118 90.0003 18.0001 73.8821 18.0001 54.0002C18.0001 34.118 34.118 18.0001 54.0002 18.0001C73.8821 18.0001 90.0003 34.118 90.0003 54.0002C90.0003 73.8821 73.8826 90.0003 54.0002 90.0003Z" fill="white"/>
