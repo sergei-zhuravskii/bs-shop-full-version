@@ -306,7 +306,7 @@ function createHeaderFull() {
             </div>
           </div>
           <div class="modal-panel__btn-close-wrapper modal-panel__btn-close_search">
-            <div class="modal-panel__btn-close" data-name="search-panel-btn-close">
+            <div class="modal-panel__btn-close modal-btn-close" data-name="search-panel-btn-close">
               <span></span>
               <span></span>
             </div>
