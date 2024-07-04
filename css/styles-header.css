@@ -324,11 +324,18 @@
 }
 
 .burger-menu__item_secondary {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 140%;
   font-weight: 400;
   color: var(--grey);
+}
+
+.burger-menu__item_secondary:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.burger-menu__item_secondary:last-child {
+  margin-bottom: 100px;
 }
 
 .burger-menu__item_secondary:nth-child(4) {
