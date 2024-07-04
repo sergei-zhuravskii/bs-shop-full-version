@@ -380,7 +380,7 @@ h2 {
   }
 
   .modal-btn-close:active > span {
-    background-color: var(--red);
+    background-color: var(--grey);
   }
 
 }
