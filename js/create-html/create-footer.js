@@ -318,7 +318,7 @@ function createFooter() {
               </svg>
             </span>
             <span class="contacts__item-link-wrapper">
-              <a href="tel:+71234567890" class="contacts__item-link">
+              <a href="#" class="contacts__item-link notice-link">
                 +7 (123) 456 78 90
               </a>
             </span>
@@ -330,7 +330,7 @@ function createFooter() {
               </svg>
             </span>
             <span class="contacts__item-link-wrapper">
-              <a href="mailto:bs@example.fish" class="contacts__item-link">
+              <a href="#" class="contacts__item-link notice-link">
                 bs@example.fish
               </a>
             </span>
@@ -379,7 +379,7 @@ function createFooter() {
 
         <!-- footer-info__copyright -->
 
-        <span class="footer-info__copyright">
+        <span class="footer-info__copyright notice-link">
           © Bait Store. 2024
         </span>
       </div>
