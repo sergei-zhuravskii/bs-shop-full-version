@@ -318,7 +318,7 @@ function createFooter() {
               </svg>
             </span>
             <span class="contacts__item-link-wrapper">
-              <a href="#" class="contacts__item-link notice-link">
+              <a href="#" class="contacts__item-link notice-link" onclick="return false">
                 +7 (123) 456 78 90
               </a>
             </span>
@@ -330,7 +330,7 @@ function createFooter() {
               </svg>
             </span>
             <span class="contacts__item-link-wrapper">
-              <a href="#" class="contacts__item-link notice-link">
+              <a href="#" class="contacts__item-link notice-link" onclick="return false">
                 bs@example.fish
               </a>
             </span>
