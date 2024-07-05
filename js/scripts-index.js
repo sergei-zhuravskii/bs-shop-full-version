@@ -53,6 +53,8 @@ import showCartCounter from '/bs-shop-full-version/js/showing/show-cart-counter.
 
 import deleteCartItem from '/bs-shop-full-version/js/showing/delete-cart-item.js'; // delete item in cart
 
+import showNotice from '../js/showing/show-notice.js'; // show notice
+
 // import objects
 
 import products from '/bs-shop-full-version/js/arrays/products.js'; // products
@@ -88,6 +90,8 @@ showCardCounter(); // show counter in card
 showCartCounter(); // show counter in cart
 
 deleteCartItem(); // delete item in cart
+
+showNotice(); // showNotice
 
 // launch importing functions by action
 
