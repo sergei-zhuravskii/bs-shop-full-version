@@ -7,7 +7,7 @@ import createFooter from '/bs-shop-full-version/js/create-html/create-footer.js'
 
 import showNavMobile from '/bs-shop-full-version/js/showing/show-nav-mobile.js'; // nav mobile
 
-import showNotice from '../js/showing/show-notice.js'; // show notice
+import showNotice from '/bs-shop-full-version/js/showing/show-notice.js'; // show notice
 
 // launch functions
 
