@@ -51,6 +51,10 @@
   stroke: var(--blue);
 }
 
+.download-link__title {
+  color: var(--blue);
+}
+
 /* @media *//* @media *//* @media *//* @media */
 /* @media *//* @media *//* @media *//* @media */
 /* @media *//* @media *//* @media *//* @media */
