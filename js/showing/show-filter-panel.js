@@ -11,12 +11,13 @@ function showFilterPanel() {
 
   filterPanelBtnOpen.addEventListener('click', openFilterPanel);  // btn open
 
-  function openFilterPanel(event) {   // open function
-    const body = document.querySelector('body'); // <body> inizialisation
-    body.classList.add('body-scroll-off'); // body fixation
+  function openFilterPanel() {   // open function
+    const body = document.querySelector('body');
+    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
-    // event.preventDefault();
-
+    body.classList.add('body-scroll-off');
+    body.classList.add('body-offset');
+    headerTopMobile.style.width = 'calc(100% - 17px)';
     filterPanel.classList.add('active');
   }
 
@@ -30,12 +31,13 @@ function showFilterPanel() {
     item.addEventListener('click', closeFilterPanel);
   });
 
-  function closeFilterPanel(event) {   // close function
-    const body = document.querySelector('body'); // <body> inizialisation
-    body.classList.remove('body-scroll-off'); // body fixation
+  function closeFilterPanel() {   // close function
+    const body = document.querySelector('body');
+    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
-    // event.preventDefault();
-
+    body.classList.remove('body-scroll-off');
+    body.classList.remove('body-offset');
+    headerTopMobile.style.width = '100%';
     filterPanel.classList.remove('active');
   }
 
