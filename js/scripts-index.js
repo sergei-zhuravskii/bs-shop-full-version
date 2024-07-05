@@ -53,7 +53,7 @@ import showCartCounter from '/bs-shop-full-version/js/showing/show-cart-counter.
 
 import deleteCartItem from '/bs-shop-full-version/js/showing/delete-cart-item.js'; // delete item in cart
 
-import showNotice from '../js/showing/show-notice.js'; // show notice
+import showNotice from '/bs-shop-full-version/js/showing/show-notice.js'; // show notice
 
 // import objects
 
