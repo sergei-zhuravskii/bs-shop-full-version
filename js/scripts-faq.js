@@ -9,6 +9,8 @@ import showNavMobile from '/bs-shop-full-version/js/showing/show-nav-mobile.js';
 
 import showFaqAccordeon from '/bs-shop-full-version/js/showing/show-faq-accordeon.js'; // FAQ accordeon
 
+import showNotice from '/bs-shop-full-version/js/showing/show-notice.js'; // show notice
+
 // launch functions by reboot
 
 createHeaderCut() // create <header>
@@ -18,3 +20,5 @@ createFooter() // create <footer>
 showNavMobile(); // nav mobile
 
 showFaqAccordeon(); // FAQ accordeon
+
+showNotice(); // showNotice
