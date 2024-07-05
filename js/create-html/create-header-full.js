@@ -29,7 +29,7 @@ function createHeaderFull() {
               </a>
             </span>
             <span class="contacts__item-link-wrapper" data-name="header-phone">
-              <a href="#" class="contacts__item-link notice-link">
+              <a href="#" class="contacts__item-link notice-link" onclick="return false">
                 +7 (123) 456 78 90
               </a>
             </span>
@@ -43,7 +43,7 @@ function createHeaderFull() {
               </a>
             </span>
             <span class="contacts__item-link-wrapper" data-name="header-email">
-              <a href="#" class="contacts__item-link notice-link">
+              <a href="#" class="contacts__item-link notice-link" onclick="return false">
                 bs@example.fish
               </a>
             </span>
