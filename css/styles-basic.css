@@ -263,6 +263,10 @@ h2 {
   margin-right: 17px;
 }
 
+.notice-link {
+  cursor: pointer;
+}
+
 /* main__container */
 
 .main {
