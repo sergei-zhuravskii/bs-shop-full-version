@@ -9,6 +9,8 @@ import showNavMobile from '/bs-shop-full-version/js/showing/show-nav-mobile.js';
 
 import createScrollBtn from '/bs-shop-full-version/js/create-html/create-scroll-btn.js'; // scroll up btn
 
+import showNotice from '/bs-shop-full-version/js/showing/show-notice.js'; // show notice
+
 // launch functions
 
 createHeaderCut() // create <header>
@@ -18,3 +20,5 @@ createFooter() // create <footer>
 showNavMobile(); // nav mobile
 
 createScrollBtn() // create scroll up btn
+
+showNotice(); // showNotice
