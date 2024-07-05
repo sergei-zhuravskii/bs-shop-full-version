@@ -259,6 +259,10 @@ h2 {
   overflow: hidden;
 }
 
+.body-offset {
+  margin-right: 17px;
+}
+
 /* main__container */
 
 .main {
