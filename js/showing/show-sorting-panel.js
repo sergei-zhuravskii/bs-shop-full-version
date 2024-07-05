@@ -10,12 +10,13 @@ function showSortingPanel() {
 
   sortingPanelBtnOpen.addEventListener('click', openSortingPanel);  // btn open
 
-  function openSortingPanel(event) {   // open function
-    const body = document.querySelector('body'); // <body> inizialisation
-    body.classList.add('body-scroll-off'); // body fixation
+  function openSortingPanel() {   // open function
+    const body = document.querySelector('body');
+    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
-    event.preventDefault();
-
+    body.classList.add('body-scroll-off');
+    body.classList.add('body-offset');
+    headerTopMobile.style.width = 'calc(100% - 17px)';
     sortingPanel.classList.add('active');
   }
 
@@ -25,12 +26,13 @@ function showSortingPanel() {
     item.addEventListener('click', closeSortingPanel);
   })
 
-  function closeSortingPanel(event) {   // close function
-    const body = document.querySelector('body'); // <body> inizialisation
-    body.classList.remove('body-scroll-off'); // body fixation
+  function closeSortingPanel() {   // close function
+    const body = document.querySelector('body');
+    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
-    event.preventDefault();
-
+    body.classList.remove('body-scroll-off');
+    body.classList.remove('body-offset');
+    headerTopMobile.style.width = '100%';
     sortingPanel.classList.remove('active');
   }
 
