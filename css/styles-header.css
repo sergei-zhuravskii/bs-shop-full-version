@@ -413,7 +413,7 @@
 .modal-panel__btn-close-wrapper {
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
   width: 100%;
   background-color: none;
 }
