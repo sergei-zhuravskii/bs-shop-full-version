@@ -12,11 +12,8 @@ function showSortingPanel() {
 
   function openSortingPanel() {   // open function
     const body = document.querySelector('body');
-    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
     body.classList.add('body-scroll-off');
-    body.classList.add('body-offset');
-    headerTopMobile.style.width = 'calc(100% - 17px)';
     sortingPanel.classList.add('active');
   }
 
@@ -28,11 +25,8 @@ function showSortingPanel() {
 
   function closeSortingPanel() {   // close function
     const body = document.querySelector('body');
-    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
     body.classList.remove('body-scroll-off');
-    body.classList.remove('body-offset');
-    headerTopMobile.style.width = '100%';
     sortingPanel.classList.remove('active');
   }
 
