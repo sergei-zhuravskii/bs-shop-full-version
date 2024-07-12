@@ -128,8 +128,7 @@
   height: 20px;
   border-radius: 10px;
   background-color: var(--light-black);
-  outline: 2px solid white;
-  outline-offset: -2px;
+  border: 2px solid var(--white);
 }
 
 .cart-icon__counter {
