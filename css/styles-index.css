@@ -591,13 +591,13 @@
 }
 
 .product-info-item__title-number {
-  justify-content: left;
+  justify-content: flex-start;
   color: var(--light-black);
   font-style: italic;
 }
 
 .product-info-item__value-number {
-  justify-content: right;
+  justify-content: flex-end;
   color: var(--light-black);
   font-style: italic;
 }
