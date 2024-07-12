@@ -48,9 +48,9 @@
   cursor: pointer;
 }
 
-.FAQ-question_active {
+/* .FAQ-question_active {
   border: 1px solid var(--dark-grey);
-}
+} */
 
 .FAQ-item__btn {
   margin: 0 auto 0 auto;
@@ -118,7 +118,7 @@
   /* FAQ__accordeon */
 
   .FAQ-item__question-wrapper:hover > .FAQ-item__question {
-    border: 1px solid var(--red);
+    color: var(--red);
   }
 
   .FAQ-item__question-wrapper:hover > .FAQ-item__btn {
