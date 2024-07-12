@@ -199,7 +199,7 @@
   width: 15px;
   height: 15px;
   cursor: pointer;
-  background-image: url(/bs-shop-full-version/icons/close-btn.png);
+  background-image: url(/bs-shop-full-version/icons/сlose-btn.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -278,7 +278,7 @@
   /* product-item__product-price */
 
   .product-price__btn-delete:hover {
-    background-image: url(/icons/Close-btn-active.png);
+    background-image: url(/bs-shop-full-version/icons/сlose-btn-active.png);
   }
 
   .product-price__btn-delete:active {
@@ -292,7 +292,7 @@
   /* product-item__product-price */
 
   .product-price__btn-delete:active {
-    background-image: url(/icons/Close-btn-active.png);
+    background-image: url(/bs-shop-full-version/icons/сlose-btn-active.png);
   }
 
 }
