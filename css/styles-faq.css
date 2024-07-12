@@ -49,8 +49,7 @@
 }
 
 .FAQ-question_active {
-  outline: 1px solid var(--dark-grey);
-  outline-offset: -1px;
+  border: 1px solid var(--dark-grey);
 }
 
 .FAQ-item__btn {
@@ -119,8 +118,7 @@
   /* FAQ__accordeon */
 
   .FAQ-item__question-wrapper:hover > .FAQ-item__question {
-    outline: 1px solid var(--red);
-    outline-offset: -1px;
+    border: 1px solid var(--red);
   }
 
   .FAQ-item__question-wrapper:hover > .FAQ-item__btn {
