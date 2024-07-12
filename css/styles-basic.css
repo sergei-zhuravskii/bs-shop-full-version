@@ -180,8 +180,7 @@ h2 {
 .btn-cancel,
 .btn-more {
   background-color: var(--white);
-  outline: 2px solid var(--dark-grey);
-  outline-offset: -2px;
+  border: 2px solid var(--dark-grey);
   border-radius: 4px;
   cursor: pointer;
 }
