@@ -543,13 +543,13 @@
 .product-info-item__title {
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .product-info-item__value {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: flex-start;
 }
 
 .product-info-item__title,
