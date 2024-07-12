@@ -143,8 +143,12 @@
 
   /* FAQ__accordeon */
 
+  .FAQ-item__question-wrapper:active > .FAQ-item__question {
+    color: var(--red);
+  }
+
   .FAQ-item__question-wrapper:active > .FAQ-item__btn {
-    background-color: var(--red);
+    background-color: var(--dark-grey);
   }
 
 }
