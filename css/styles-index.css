@@ -42,8 +42,7 @@
 }
 
 .filter-item_active {
-  outline: 1px solid var(--dark-grey);
-  outline-offset: -1px;
+  border: 1px solid var(--dark-grey);
   border-radius: 4px;
 }
 
