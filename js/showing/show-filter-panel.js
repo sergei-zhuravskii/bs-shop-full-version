@@ -13,11 +13,8 @@ function showFilterPanel() {
 
   function openFilterPanel() {   // open function
     const body = document.querySelector('body');
-    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
     body.classList.add('body-scroll-off');
-    body.classList.add('body-offset');
-    headerTopMobile.style.width = 'calc(100% - 17px)';
     filterPanel.classList.add('active');
   }
 
@@ -33,11 +30,8 @@ function showFilterPanel() {
 
   function closeFilterPanel() {   // close function
     const body = document.querySelector('body');
-    const headerTopMobile = document.querySelector('.header__header-top_mobile');
 
     body.classList.remove('body-scroll-off');
-    body.classList.remove('body-offset');
-    headerTopMobile.style.width = '100%';
     filterPanel.classList.remove('active');
   }
 
