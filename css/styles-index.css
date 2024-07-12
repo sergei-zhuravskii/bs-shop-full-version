@@ -41,10 +41,10 @@
   margin-bottom: 10px;
 }
 
-.filter-item_active {
+/* .filter-item_active {
   border: 1px solid var(--dark-grey);
   border-radius: 4px;
-}
+} */
 
 .filter-item__title-wrapper {
   display: flex;
